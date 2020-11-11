@@ -1,0 +1,160 @@
+# Logfile created on 2019-02-18 22:04:06 +0000 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 22:04:06 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d0a68edc] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [d0a68edc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a46879fa] Running /usr/bin/env #<StringIO:0x000055b21da83cf0> /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [a46879fa] Command: /usr/bin/env #<StringIO:0x000055b21da83cf0> /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [f8ab3a27] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [f8ab3a27] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [59421c35] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [59421c35] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+  INFO [57837b2b] Running /usr/bin/env mkdir -p /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/shared /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases as mb16f_krateur@83.166.138.107
+ DEBUG [57837b2b] Command: /usr/bin/env mkdir -p /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/shared /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases
+ DEBUG [2849aba8] Running [ -f /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/current/REVISION ] as mb16f_krateur@83.166.138.107
+ DEBUG [2849aba8] Command: [ -f /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/current/REVISION ]
+ DEBUG [11d7ad88] Running /usr/bin/env cat /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/current/REVISION 2>/dev/null as mb16f_krateur@83.166.138.107
+ DEBUG [11d7ad88] Command: /usr/bin/env cat /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/current/REVISION 2>/dev/null
+ DEBUG [2f6e6ca9] Running [ -f /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo/HEAD ] as mb16f_krateur@83.166.138.107
+ DEBUG [2f6e6ca9] Command: [ -f /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo/HEAD ]
+  INFO The repository mirror is at /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo
+ DEBUG [cf7cbf65] Running if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi as mb16f_krateur@83.166.138.107
+ DEBUG [cf7cbf65] Command: if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi
+  INFO [57d9c4ae] Running /usr/bin/env git remote set-url origin mb16f_krateur@83.166.138.107:git as mb16f_krateur@83.166.138.107
+ DEBUG [57d9c4ae] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git remote set-url origin mb16f_krateur@83.166.138.107:git )
+  INFO [ea271c93] Running /usr/bin/env git remote update --prune as mb16f_krateur@83.166.138.107
+ DEBUG [ea271c93] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8644dded] Running if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi as mb16f_krateur@83.166.138.107
+ DEBUG [8644dded] Command: if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi
+  INFO [ba51ed5b] Running /usr/bin/env mkdir -p /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 as mb16f_krateur@83.166.138.107
+ DEBUG [ba51ed5b] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env mkdir -p /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 )
+  INFO [7423f1ca] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 as mb16f_krateur@83.166.138.107
+ DEBUG [7423f1ca] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 )
+ DEBUG [dbf1a719] Running if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi as mb16f_krateur@83.166.138.107
+ DEBUG [dbf1a719] Command: if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo'" 1>&2; false; fi
+ DEBUG [471030be] Running /usr/bin/env git rev-list --max-count=1 master as mb16f_krateur@83.166.138.107
+ DEBUG [471030be] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aebcada0] Running if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406'" 1>&2; false; fi as mb16f_krateur@83.166.138.107
+ DEBUG [aebcada0] Command: if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406'" 1>&2; false; fi
+  INFO [fea81737] Running /usr/bin/env echo "" > REVISION as mb16f_krateur@83.166.138.107
+ DEBUG [fea81737] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 && /usr/bin/env echo "" > REVISION
+  INFO [9579c1da] Running /usr/bin/env ln -s /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/current as mb16f_krateur@83.166.138.107
+ DEBUG [9579c1da] Command: /usr/bin/env ln -s /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/20190218220406 /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/current
+  INFO [4690d3d3] Running /usr/bin/env mv /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/current /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier as mb16f_krateur@83.166.138.107
+ DEBUG [4690d3d3] Command: /usr/bin/env mv /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases/current /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier
+ DEBUG [b0dfdfd1] Running /usr/bin/env ls -x /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases as mb16f_krateur@83.166.138.107
+ DEBUG [b0dfdfd1] Command: /usr/bin/env ls -x /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases
+ DEBUG [e711f26d] Running if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases'" 1>&2; false; fi as mb16f_krateur@83.166.138.107
+ DEBUG [e711f26d] Command: if test ! -d /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases; then echo "Directory does not exist '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases'" 1>&2; false; fi
+  INFO [95894671] Running /usr/bin/env echo "Branch master (at ) deployed as release 20190218220406 by krateur" >> /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/revisions.log as mb16f_krateur@83.166.138.107
+ DEBUG [95894671] Command: cd /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/releases && /usr/bin/env echo "Branch master (at ) deployed as release 20190218220406 by krateur" >> /home/clients/4da7976ef88093bd1f76a61a7c3563a5/git/dossier/revisions.log
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 22:05:01 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ea9bbc9b] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [ea9bbc9b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b08fae9a] Finished in 11.562 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 100.0%
+  INFO [ef108f1b] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [ef108f1b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [dd090781] Finished in 0.201 seconds with exit status 0 (successful).
+  INFO [609ff710] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [609ff710] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+ DEBUG [75a5df32] 	Warning: Permanently added '83.166.138.107' (ECDSA) to the list of known hosts.
+ DEBUG [75a5df32] 	Permission denied (publickey,password).
+ DEBUG [75a5df32] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 22:31:30 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d8a14762] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [d8a14762] Command: /usr/bin/env mkdir -p /tmp
+  INFO [747d2fe4] Finished in 13.411 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 100.0%
+  INFO [7bfc6691] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [7bfc6691] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [babbfdfb] Finished in 0.493 seconds with exit status 0 (successful).
+  INFO [9c9a746f] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [9c9a746f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+ DEBUG [96e16f3f] 	key_load_public: invalid format
+ DEBUG [96e16f3f] 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+key_load_private_type: bad permissions
+Permission denied (publickey,password).
+ DEBUG [96e16f3f] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 23:03:57 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6e18564c] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [6e18564c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ef87f545] Finished in 22.601 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 100.0%
+  INFO [de1a3dd0] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [de1a3dd0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [4d242de7] Finished in 0.269 seconds with exit status 0 (successful).
+  INFO [3da10431] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [3da10431] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+ DEBUG [651f39f4] 	key_load_public: invalid format
+ DEBUG [651f39f4] 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/home/clients/4da7976ef88093bd1f76a61a7c3563a5/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+ DEBUG [651f39f4] 	key_load_private_type: bad permissions
+Permission denied (publickey,password).
+ DEBUG [651f39f4] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 23:06:21 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [01cf8ba4] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [01cf8ba4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2d100569] Finished in 11.573 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 100.0%
+  INFO [83e19f97] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [83e19f97] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [fbdcfbd3] Finished in 0.397 seconds with exit status 0 (successful).
+  INFO [e01704eb] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [e01704eb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+ DEBUG [5428f9b8] 	key_load_public: invalid format
+ DEBUG [5428f9b8] 	Permission denied (publickey,password).
+ DEBUG [5428f9b8] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-02-18 23:14:39 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [23c5ab1d] Running /usr/bin/env mkdir -p /tmp as mb16f_krateur@83.166.138.107
+ DEBUG [23c5ab1d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1b53e073] Finished in 11.130 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ecommerce-web-production-krateur.sh 100.0%
+  INFO [da8c4ed9] Running /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh as mb16f_krateur@83.166.138.107
+ DEBUG [da8c4ed9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ecommerce-web-production-krateur.sh
+  INFO [4672db12] Finished in 0.261 seconds with exit status 0 (successful).
+  INFO [79b9fb1b] Running /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD as mb16f_krateur@83.166.138.107
+ DEBUG [79b9fb1b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ecommerce-web-production-krateur.sh" ; /usr/bin/env git ls-remote mb16f_krateur@83.166.138.107:git HEAD )
+ DEBUG [8f85319f] 	key_load_public: invalid format
+ DEBUG [8f85319f] 	Permission denied (publickey,password).
+ DEBUG [8f85319f] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
